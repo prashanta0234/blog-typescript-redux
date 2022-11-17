@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { lazy } from "react";
 
-function App() {
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import AddBlog from "./pages/AddBlog";
+import Home from "./pages/Home";
+
+// const Home = lazy(() => import("./pages/Home"));
+// const AddBlog = lazy(() => import("./pages/AddBlog"));
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/add-blog" element={<AddBlog />} />
+      </Routes>
+    </>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "First Blog",
+      "body": "Lodash is a package that contains lots of great utility functions. For example, Lodash’s debounce function delays invoking a function passed into it. It can help performance in some situations.The problem with the app is that the search request is made every time the user makes a keystroke in the input element. Ideally, we want the search request to be made only when the user has stopped typing. We can use the debounce function from Lodash to do this.",
+      "date": "wed, 13 sep 2022",
+      "author": "Mr. Kamal",
+      "genre": ["Technology", "Javascript"],
+      "id": 1
+    },
+    {
+      "title": "Seceond Blog",
+      "body": "Lodash is a package that contains lots of great utility functions. For example, Lodash’s debounce function delays invoking a function passed into it. It can help performance in some situations.The problem with the app is that the search request is made every time the user makes a keystroke in the input element. Ideally, we want the search request to be made only when the user has stopped typing. We can use the debounce function from Lodash to do this.",
+      "date": "wed, 13 sep 2022",
+      "author": "Mr. Karim",
+      "genre": ["Technology", "Java"],
+      "id": 2
+    },
+    {
+      "title": "Third Blog",
+      "body": "Lodash is a package that contains lots of great utility functions. For example, Lodash’s debounce function delays invoking a function passed into it. It can help performance in some situations.The problem with the app is that the search request is made every time the user makes a keystroke in the input element. Ideally, we want the search request to be made only when the user has stopped typing. We can use the debounce function from Lodash to do this.",
+      "date": "wed, 13 sep 2022",
+      "author": "Mr. Karim",
+      "genre": ["Weather", "Java"],
+      "id": 3
+    }
+  ]
+}
